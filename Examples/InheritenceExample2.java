@@ -1,4 +1,4 @@
-package p1;
+package bin;
 
 import p1.Shape;
 import p1.Rectangle;

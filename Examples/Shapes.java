@@ -1,4 +1,4 @@
-package p1;
+package bin;
 
 class Shape {
     protected String name;

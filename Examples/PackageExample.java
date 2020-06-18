@@ -1,3 +1,5 @@
+package p1;
+
 public class PackageExample {
 
     public void method1() {
