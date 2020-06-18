@@ -1,4 +1,4 @@
-package bin;
+package bin; 
 
 class Shape {
     protected String name;
@@ -18,10 +18,47 @@ class TwoD extends Shape {
     }
 }
 
-//To Do
+class Rectangle extends TwoD {
 
-//Square
+    protected float length;
+    protected float width; 
 
-//Triangle
+    public Rectangle(String name, float length, float width) {
+        super(name);
+        this.length = length;
+        this.width = width;
+    }
 
-//Rectangle
+    public float getArea() {
+        return this.length * this.width;
+    }
+}
+
+class Triangle extends TwoD {
+
+    protected float base;
+    protected float height; 
+    
+    public Triangle(String name, float base, float height) {
+        super(name);
+        this.base = base;
+        this.height = height;
+    }
+
+    public float getArea() {
+        return (this.base * this.height) * 0.5f;
+    }
+}
+
+class Square extends Rectangle {
+
+    private float side; 
+    public Square (String name, float side) {
+        super(name, side, side);
+        this.side = side;
+    }
+
+    public float getArea() {
+        return this.side * this.side;
+    }
+}

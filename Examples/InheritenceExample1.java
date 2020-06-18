@@ -12,18 +12,14 @@ public class InheritenceExample1 {
 }
 
 class Vehicle {
-
     protected int numberOfDoors;
-    
     public Vehicle(int n) {
         numberOfDoors = n;
 
     }
-    
     protected int getNumberOfDoors() {
         return this.numberOfDoors;
     }
-
 }
 
 class Car extends Vehicle {
