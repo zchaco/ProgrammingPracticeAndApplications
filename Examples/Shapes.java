@@ -55,3 +55,10 @@ class Triangle extends TwoD {
 }
 
 //Square
+
+class Square extends Rectangle {
+
+    public Square(String name, float length) {
+        super(name, length, length);
+    }
+}

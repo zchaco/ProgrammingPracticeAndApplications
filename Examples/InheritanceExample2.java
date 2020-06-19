@@ -1,3 +1,8 @@
+package bin;
+
+import bin.Triangle;
+import bin.Rectangle;
+import bin.Square;
 
 public class InheritanceExample2 {
     public static void main(String[] args) {
