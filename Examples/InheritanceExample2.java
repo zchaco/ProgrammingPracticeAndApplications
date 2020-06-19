@@ -15,5 +15,7 @@ public class InheritanceExample2 {
         Square sq = new Square("square", 3);
         sq.printName();
         System.out.println(sq.getArea());
+
+        system.out.println("somechange");
     }
 }
