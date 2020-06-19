@@ -1,10 +1,5 @@
-package bin;
 
-import bin.Shape;
-import bin.Rectangle;
-import bin.Triangle;
-
-public class InheritenceExample2 {
+public class InheritanceExample2 {
     public static void main(String[] args) {
         Triangle t = new Triangle("triangle", 3.0f, 4.0f);
         t.printName();

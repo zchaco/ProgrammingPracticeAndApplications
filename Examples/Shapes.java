@@ -50,15 +50,4 @@ class Triangle extends TwoD {
     }
 }
 
-class Square extends Rectangle {
-
-    private float side; 
-    public Square (String name, float side) {
-        super(name, side, side);
-        this.side = side;
-    }
-
-    public float getArea() {
-        return this.side * this.side;
-    }
-}
+//Square

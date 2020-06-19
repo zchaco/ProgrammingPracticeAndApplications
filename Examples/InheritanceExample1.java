@@ -1,4 +1,4 @@
-public class InheritenceExample1 {
+public class InheritanceExample1 {
     public static void main(String[] args) {
         Car myCar = new Car(2);
         myCar.setIsConvertible(true);
