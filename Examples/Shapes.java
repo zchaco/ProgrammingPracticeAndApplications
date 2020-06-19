@@ -10,6 +10,10 @@ class Shape {
     public void printName() {
         System.out.println(name);
     }
+
+    /*public float getArea() {
+        return 0;
+    }*/
 }
 
 class TwoD extends Shape {
