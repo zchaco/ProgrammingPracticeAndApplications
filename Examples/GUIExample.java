@@ -1,12 +1,15 @@
 import javax.swing.*;
-import java.awt.BorderLayout;
 
-import javax.swing.JFrame;
 
 public class GUIExample extends JFrame {
 
     public GUIExample() {
 
+        JButton b = new JButton("Button");
+        
+        this.add(b);
+        this.setSize(500,300);
+        this.setVisible(true);
         
     }
 
